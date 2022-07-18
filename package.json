@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-mentor-volosovuch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production mukola=beer orusay=pizza node server.js",
+    "dev": "cross-env mukola=beer orusay=pizza NODE_ENV=development node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
